@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5633E9B4150321AF00F7431C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5633E9B3150321AF00F7431C /* UIKit.framework */; };
+		5633E9B6150321AF00F7431C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5633E9B5150321AF00F7431C /* Foundation.framework */; };
+		5633E9B8150321AF00F7431C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5633E9B7150321AF00F7431C /* CoreGraphics.framework */; };
+		5633E9BE150321AF00F7431C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5633E9BC150321AF00F7431C /* InfoPlist.strings */; };
+		5633E9C0150321AF00F7431C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5633E9BF150321AF00F7431C /* main.m */; };
+		5633E9C4150321AF00F7431C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5633E9C3150321AF00F7431C /* AppDelegate.m */; };
+		5633E9C7150321AF00F7431C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5633E9C6150321AF00F7431C /* ViewController.m */; };
+		5633E9CA150321AF00F7431C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5633E9C8150321AF00F7431C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5633E9AF150321AF00F7431C /* Ipad Lab-NoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ipad Lab-NoteBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5633E9B3150321AF00F7431C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5633E9B5150321AF00F7431C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5633E9B7150321AF00F7431C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5633E9BB150321AF00F7431C /* Ipad Lab-NoteBook-Info.plist */ = {isa = PBXFileReference; path = "Ipad Lab-NoteBook-Info.plist"; sourceTree = "<group>"; };
+		5633E9BD150321AF00F7431C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5633E9BF150321AF00F7431C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5633E9C1150321AF00F7431C /* Ipad Lab-NoteBook-Prefix.pch */ = {isa = PBXFileReference; path = "Ipad Lab-NoteBook-Prefix.pch"; sourceTree = "<group>"; };
+		5633E9C2150321AF00F7431C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5633E9C3150321AF00F7431C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5633E9C5150321AF00F7431C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		5633E9C6150321AF00F7431C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5633E9C9150321AF00F7431C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5633E9AC150321AF00F7431C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5633E9B4150321AF00F7431C /* UIKit.framework in Frameworks */,
+				5633E9B6150321AF00F7431C /* Foundation.framework in Frameworks */,
+				5633E9B8150321AF00F7431C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5633E9A4150321AF00F7431C = {
+			isa = PBXGroup;
+			children = (
+				5633E9B9150321AF00F7431C /* Ipad Lab-NoteBook */,
+				5633E9B2150321AF00F7431C /* Frameworks */,
+				5633E9B0150321AF00F7431C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5633E9B0150321AF00F7431C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5633E9AF150321AF00F7431C /* Ipad Lab-NoteBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5633E9B2150321AF00F7431C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5633E9B3150321AF00F7431C /* UIKit.framework */,
+				5633E9B5150321AF00F7431C /* Foundation.framework */,
+				5633E9B7150321AF00F7431C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5633E9B9150321AF00F7431C /* Ipad Lab-NoteBook */ = {
+			isa = PBXGroup;
+			children = (
+				5633E9C2150321AF00F7431C /* AppDelegate.h */,
+				5633E9C3150321AF00F7431C /* AppDelegate.m */,
+				5633E9C5150321AF00F7431C /* ViewController.h */,
+				5633E9C6150321AF00F7431C /* ViewController.m */,
+				5633E9C8150321AF00F7431C /* ViewController.xib */,
+				5633E9BA150321AF00F7431C /* Supporting Files */,
+			);
+			path = "Ipad Lab-NoteBook";
+			sourceTree = "<group>";
+		};
+		5633E9BA150321AF00F7431C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5633E9BB150321AF00F7431C /* Ipad Lab-NoteBook-Info.plist */,
+				5633E9BC150321AF00F7431C /* InfoPlist.strings */,
+				5633E9BF150321AF00F7431C /* main.m */,
+				5633E9C1150321AF00F7431C /* Ipad Lab-NoteBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5633E9AE150321AF00F7431C /* Ipad Lab-NoteBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5633E9CD150321AF00F7431C /* Build configuration list for PBXNativeTarget "Ipad Lab-NoteBook" */;
+			buildPhases = (
+				5633E9AB150321AF00F7431C /* Sources */,
+				5633E9AC150321AF00F7431C /* Frameworks */,
+				5633E9AD150321AF00F7431C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ipad Lab-NoteBook";
+			productName = "Ipad Lab-NoteBook";
+			productReference = 5633E9AF150321AF00F7431C /* Ipad Lab-NoteBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5633E9A6150321AF00F7431C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5633E9A9150321AF00F7431C /* Build configuration list for PBXProject "Ipad Lab-NoteBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5633E9A4150321AF00F7431C;
+			productRefGroup = 5633E9B0150321AF00F7431C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5633E9AE150321AF00F7431C /* Ipad Lab-NoteBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5633E9AD150321AF00F7431C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5633E9BE150321AF00F7431C /* InfoPlist.strings in Resources */,
+				5633E9CA150321AF00F7431C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5633E9AB150321AF00F7431C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5633E9C0150321AF00F7431C /* main.m in Sources */,
+				5633E9C4150321AF00F7431C /* AppDelegate.m in Sources */,
+				5633E9C7150321AF00F7431C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5633E9BC150321AF00F7431C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5633E9BD150321AF00F7431C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5633E9C8150321AF00F7431C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5633E9C9150321AF00F7431C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5633E9CB150321AF00F7431C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5633E9CC150321AF00F7431C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5633E9CE150321AF00F7431C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ipad Lab-NoteBook/Ipad Lab-NoteBook-Prefix.pch";
+				INFOPLIST_FILE = "Ipad Lab-NoteBook/Ipad Lab-NoteBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5633E9CF150321AF00F7431C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ipad Lab-NoteBook/Ipad Lab-NoteBook-Prefix.pch";
+				INFOPLIST_FILE = "Ipad Lab-NoteBook/Ipad Lab-NoteBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5633E9A9150321AF00F7431C /* Build configuration list for PBXProject "Ipad Lab-NoteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5633E9CB150321AF00F7431C /* Debug */,
+				5633E9CC150321AF00F7431C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5633E9CD150321AF00F7431C /* Build configuration list for PBXNativeTarget "Ipad Lab-NoteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5633E9CE150321AF00F7431C /* Debug */,
+				5633E9CF150321AF00F7431C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5633E9A6150321AF00F7431C /* Project object */;
+}
